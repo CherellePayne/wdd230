@@ -7,7 +7,9 @@
     <meta name="description" content= "The index page Cherelle Payne's WDD230 Assignment Portal, Web Frontend Development at BYUI>
     <title> Cherelle Payne's Index For WDD230 </title>
     <style>
-        
+        h1{
+
+        }
 
     </style>
 </head>
@@ -32,8 +34,43 @@
     </main>
 
     <foter>
+        <p><span id="currentdate"></span></p>
+        
 <script>
+let daynames = [
+  "Sunday",
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday"
+];
+let months = [
+  "Jan",
+  "Feb",
+  "Mar",
+  "Apr",
+  "May",
+  "Jun",
+  "Jul",
+  "Aug",
+  "Sept",
+  "Oct",
+  "Nov",
+  "Dec",
+  ];
 
+let d = new Date();
+let dayName = daynames[d.getDay()];
+let monthName = months[d.getMonth()];
+let year = d.getFullYear();
+let fulldate = dayName + "," + monthName + " "+ d.getDate() + "," + year;
+
+document.getElementById("currentdate").textContext + fulldate;
+
+const event = new Date(Date.UTC(2012, 11, 20, 3, 0, 0));
+const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
 </script>
     </foter>
 </body>
