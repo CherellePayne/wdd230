@@ -7,28 +7,37 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
         <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="lesson2/designprincipals.css/# normalize">
-        <link rel="stylesheet" href="lesson2/designprincipals.css/small.css">
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="./styles/smalll2.css">
+        <link rel="stylesheet" href="./styles/mediuml2.css">
+        <link rel="stylesheet" href="./styles/largel2.css">
     <title>Cherelle Payne Design Principals</title>
 </head>
+<body>
 <main>
-<h1>Design Principals</h1>
-<section>
-<h2>Design Principal:Contrast </h2>
-<h3>Banana Republic</h3>
-<body>Contast between the white text and the darker image is a delightful contrast, that embodies the style of the brand and allows the user to navigate easily.</body>
-<br>
-    <img src="lesson2/images/BananaRepublicReponsive.png" alt="Banana Republic">
+
+
+    <h1>Design Principals</h1>
+    <br>
+    <section>
+        <div class="grid1">
+    <h2>Design Principal:Contrast </h2>
+    <h3>Banana Republic</h3>
+    Contast between the white text and the darker image is a delightful contrast, that embodies the style of the brand and allows the user to navigate easily.</body>
+    <br>
+    <img src="./images/BananaRepublicReponsive.png" alt="Banana Republic">
     <br>
     <a href="https://bananarepublic.gapcanada.ca/?ssiteID=ON" target="_blank">Banana Republic</a>
+        </div>
 </section>
 <section>
-    <h2>Design Principal:Rule of Thirds </h2>
+    <h2> Design Principal:Rule of Thirds </h2>
     
     <h3>HEAD</h3>
     <body>HEAD uses the rule of thirds to diplay link to the product feauture, showcase seasonal ski gear, and lastly "shop the highlights".</body>
     <br>
-        <img src="lesson2/images/headResponsive.png" alt="head">
+
+    <img src="./images/headResponsive.png" alt="head">
         <br>
         <a href="https://www.head.com/en_CA/home" target="_blank">Head</a>
 </section>
@@ -37,10 +46,37 @@
         <h3>Nakiska</h3>
         <body>Nakiska uses "whitespace" by not over crowding the design with loads of text and making use of the images.Notice the images are not overly busy, so that they don't compete with the content and links.</body>
         <br>    
-        <img src="/Users/kenpayne/Desktop/wdd230/lesson2/images/nakiskaTest.png" alt="Nakiska">
+        <img src="./images/nakiskaTest.png" alt="Nakiska">
             <br>
             <a href="https://skinakiska.com/" target="_blank">Nakiska</a>
 </section>
-</body>
 </main>
+</body>
 </html>
+
+
+
+<div class="grid"> <!-- main grid layout-->
+
+    <!-- children -->
+    <div class="grid-1">
+
+    </div>
+
+    <div class="grid-2">
+
+    </div>
+
+    <div class="grid-3">
+
+    </div>
+</div>
+
+
+<!-- class="grid"-->
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+}
+
+

@@ -1,0 +1,32 @@
+body {
+	font-size: 14px;
+	font-family: "Oswald", Helvitical, sans-serif;
+}
+/* phone or baseline views **************************/
+main {
+	max-width: 767px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 0.8rem;
+}
+
+main section h2 {
+	color: #262727;
+}
+
+main section h3 {
+	color: #235757;
+}
+main section {
+	margin: 0.5rem;
+	border: 1px solid #999999;
+	padding: 0 1rem;
+	background-color: #ffffff;
+}
+
+
+
+
+
+

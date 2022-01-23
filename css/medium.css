@@ -1,0 +1,26 @@
+/* Tablet Views ******************************/
+@media only screen and (min-width: 32.5em) {
+	body {
+		grid-template-columns: 1fr 1fr;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        font-size: 1.2rem;
+	}
+
+h1{font-family: helvetical;
+            font-size: 20px;
+            color: blue;
+        }
+     
+        h2{font-family: helvetical;
+            font-size: 2 rem;
+            color: blueviolet;
+        }
+        body{font-family: helvetical;
+            font-size: .8rem;
+            color:brown;
+        }
+
+        ul{text-align:left;
+        }

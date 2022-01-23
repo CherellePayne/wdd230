@@ -1,6 +1,14 @@
+/* phone or baseline views **************************/
+body {
+	max-width: 767px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 0.8rem;
+}
 
 h1{font-family: helvetical;
-            font-size: 20px;
+            font-size: 40px;
             color: darkblue;
         }
         h2{font-family: helvetical;
@@ -9,9 +17,14 @@ h1{font-family: helvetical;
         }
 
         body{font-family: helvetical;
-            font-size: 12px;
+            font-size: 12px
+            color:black;
         }
 
-        ul{text-align:center;
+        ul{text-align:left;
         }
 
+        #box{
+            display:flex;
+            justify-content:center;
+        }
