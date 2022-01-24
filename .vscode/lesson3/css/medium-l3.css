@@ -1,0 +1,11 @@
+/* Tablet Views ******************************/
+@media only screen and (min-width: 37.5em) {
+
+.topnav {
+background-color: #333;
+overflow: hidden;
+display: flex;
+flex-direction: row;
+}
+
+}

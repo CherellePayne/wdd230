@@ -10,6 +10,8 @@ h1{ display: flex;
 .topnav {
 background-color: #333;
 overflow: hidden;
+display: flex;
+flex-direction: column;
 }
 
 /* Style the links inside the navigation bar */
