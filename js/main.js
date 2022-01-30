@@ -30,7 +30,7 @@ let daynames = [
   let year = d.getFullYear();
   let fulldate = dayName + "," + monthName + " "+ d.getDate() + "," + year;
   
-  document.getElementById("currentdate").textContext + fulldate;
+  document.getElementById("currentdate").textContext = fulldate;
   
   const event = new Date(Date.UTC(2012, 11, 20, 3, 0, 0));
   const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };

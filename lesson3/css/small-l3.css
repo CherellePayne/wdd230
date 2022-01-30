@@ -1,4 +1,4 @@
-/ <style>
+<style>
 h1{ display: flex;
     justify-content: flex-start;
     font-size:50px;
@@ -75,6 +75,15 @@ h4{
 p{ color: #272830;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+nav .topnav {display:none;}
+nav .topnav.open {display:block;}
+
+#hamburgerBtn span:nth-child(1) {display:block;}
+#hamburgerBtn span:nth-child(2) {display:none;}
+
+#hamburgerBtn.open span:nth-child(1) {display:none;}
+#hamburgerBtn.open span:nth-child(2) {display:block;}
 
 }
 </style>
