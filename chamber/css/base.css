@@ -36,15 +36,40 @@ width: 30px;
 header #tagline{
    color:#6EBA4A;
    margin: 0 2vw;
+   font-family:'Bilbo Swash Caps';
+   font-size: 1.5rem;
 }
 
-h1, p {margin: 0 2vw;}
+h1 { display: flex;
+    justify-content: flex-start;
+    font-size:50px;
+    font-family: 'Oswald', serif;
+    color: #272830;
+    margin: 0 2vw;}
+
+    h2{color:#6EBA4A;
+        font-size: 2.5rem;
+        font-family: 'IM Fell Great Primer', serif;
+    } 
+    
+    h3{color:#579439;
+        font-size: xx-large;
+        font-family: 'Bilbo Swash Caps', cursive;
+    } 
+    
+    h4{
+        font-size: 3em;
+    }
+
+
+ p {margin: 0 2vw;}
 
 nav button{
     margin: .2rem 2vw;
    background: transparent;
    border: none;
    font-size: 2rem; 
+   font-family: ;
 }
 
 nav {
@@ -92,4 +117,18 @@ nav ul.open {display:block;}
     color: darkgray;
     font-style: none;
     padding-left: 20px;
+}
+.content{
+    margin-left: 20px;
+    padding:2em;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+}
+
+#hero{
+    display: grid;
+    grid-row: 1/6;
+    grid-column:2/5;
+    border: 0.2em;
 }
