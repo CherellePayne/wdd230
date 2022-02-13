@@ -41,8 +41,10 @@ header #tagline{
     margin: 5px 5px 5px 4px;
 }
 
-#hero img{ 
-    grid-column-end: 100%;
+#heroimage{ 
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 1/7;    
 }
 
 #events{

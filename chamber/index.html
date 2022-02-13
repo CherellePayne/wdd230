@@ -71,12 +71,14 @@
         <section class=content>
            
         <div id=hero>
-            <figure> 
-            <img src="./images/shire2-1200.png" rel="images" alt="The Shire"
-            scrset="./images/shire2-500.png 2x, ./images/shire2-1200.png 1x", rel="images" 
-            alt="The Shire Countryside">
-        </figure>
+         <picture id="heroimage">
+             <source media="(max-width:400px)" srcset="./images/shire2-260.png" rel="images"> 
+            <source media= "(max-width:799px)" srcset="./images/shire2-500.png" rel="images"> 
+            <source media= "(min-width:800px)" srcset="./images/shire2-1200.png" rel="images"> 
+            <img scr="./images/shire2-500" rel="images"  alt="The Shire Countryside">
+          </picture>
         </div>
+    
        
         <div id=events>events</div>
         <div id=CTA>Call To Action </div>
