@@ -162,3 +162,12 @@ nav ul.open {display:block;}
     color: rgb(128, 128, 128);
 }
 
+#bg-image.lazy{
+    background-image: none;
+    background-color: #579439;
+}
+
+#bg-image {
+    background-image:/Users/kenpayne/Desktop/wdd230/chamber/images/discov1.png
+    max-width: 540px;
+}
