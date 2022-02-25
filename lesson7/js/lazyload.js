@@ -12,7 +12,7 @@ function preloadImage(img) {
 
 const imgOptions = {
     threshold: 0,
-    rootMargin: "0px Opx 300px 0px"
+    rootMargin: "0px 0px 300px 0px"
 };
 
 
@@ -23,7 +23,7 @@ const imgObserver = new IntersectionObserver((entries,
        return;
    } else {
 preloadImage(entry.target);
-imgObserver.unobserved(entry.target);   
+imgObserver.unobserve(entry.target);   
 }
 });
 }, imgOptions);

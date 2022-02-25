@@ -1,0 +1,83 @@
+    tbody {
+    font-size: 1.5em;
+    font-family:Ubuntu;
+    }
+
+    tfoot {
+    background-color: rgb(74, 108, 136);
+    }
+    
+    table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200,200,200);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    box-shadow: 10px 10px 5px gray;
+    }
+
+    td, th {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+    }
+
+    th {
+    background-color: rgb(83, 172, 175);
+    }
+
+    td {
+    text-align: center;
+    }
+
+    tr:nth-child(even) td {
+    background-color: rgb(231, 231, 231);
+    }
+
+    tr:nth-child(odd) td {
+    background-color: rgb(192, 214, 198);
+    }
+
+    caption {
+    padding: 10px;
+    }
+
+    tfoot { s
+    background-color: rgb(87, 148, 163)!important;
+    }
+
+    #period {   
+    background-color: rgb(55, 89, 117)!important;
+    color:white;
+    font-weight: bold;
+    font-size: 1em;
+    }
+
+    #sales{   
+        background-color: rgb(55, 89, 117)!important;
+        color:white;
+        font-weight:bolder;
+        font-size: 1em;
+        }
+
+    #goals{   
+        background-color: rgb(55, 89, 117)!important;
+        color:white;
+        font-weight:bold;
+        font-size: 1em;
+        }
+    
+
+    #Nov{
+        background-color: rgb(55, 89, 117)!important;
+        color:white!important;
+        font-size: 1em;
+    }
+
+    thead {
+     font-size: 2em;
+     font-family:Ubuntu;  
+     font-weight: bolder; 
+    }
+
+    #last {
+        background-color: rgb(87, 148, 163)!important;
+        }
