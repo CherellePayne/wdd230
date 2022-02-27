@@ -171,3 +171,70 @@ nav ul.open {display:block;}
     background-image:/Users/kenpayne/Desktop/wdd230/chamber/images/discov1.png
     max-width: 540px;
 }
+
+.discovery{
+    margin-left: 5rem;
+}
+
+.discovery img{
+    flex-wrap: wrap;
+    margin: 1rem 1rem 1rem 1rem;
+}
+
+.banner {
+    grid-template-columns: 1/6;
+    grid-template-rows: 1/400px/5;
+    background-color: rgb(144, 158, 149);
+}
+
+.banner h2{
+    color: #eee;
+    margin-left: 5rem;
+    padding-bottom: 0px;
+    padding-top: 150px;
+} 
+
+.banner p{
+    font-size: 1.2rem;
+    color: #eee;
+    padding-bottom: 150px;
+    margin-left: 5rem;
+}
+
+.join-grid{
+    display:grid;
+    grid-column: 5% 30% 5% 25% 5% 25% 5%;
+    grid-row: 2% 30% 3% 30% 3% 30% 2%;
+}
+
+#hobithome{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: row1-start;
+    grid-row-end: 3;
+}
+
+#join-form {
+    margin-top: 2rem;
+    display:grid;
+    font-size: 1.2rem;
+    margin-left: 5rem;  
+    font-family: 'IM Fell Great Primer', serif;
+ 
+}
+
+#join-form h3{
+    color: #485753;
+    font-size: 3.4rem;
+    margin-top: .7rem;
+    margin-bottom: .3rem;
+}
+
+#join-form p{
+    color: #485753;
+    font-size: 2rem;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    margin-left: 0rem;
+}
+
