@@ -27,7 +27,6 @@ header img{
     justify-content: flex-end;
     height: 80px;
     width:100px;
-    
       }
 
 
@@ -195,6 +194,7 @@ nav ul.open {display:block;}
 } 
 
 .banner p{
+
     font-size: 1.2rem;
     color: #eee;
     padding-bottom: 150px;
@@ -238,3 +238,15 @@ nav ul.open {display:block;}
     margin-left: 0rem;
 }
 
+ #content {
+     color:#d36f2d
+ }
+
+ #fineprint{
+     color: #414141;
+     font-size: small;
+ }
+
+ #box{
+     background-image:url("paper.gif"); 
+ }

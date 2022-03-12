@@ -26,7 +26,7 @@ fetch(requestURL)
     
     // add the prophets name to the h2 textcontent
         h2.textContent = prophet.name + " " + prophet.lastname;
-        info.innerHTML = `Date of Birth: ${prophet.birthdate} <br> Place of Birth: ${prophet.birthplace} `
+        info.innerHTML = `Business: ${prophet.businessname} <br> Business Type: ${prophet.businesstype} `
         portrait.setAttribute('src', prophet.imageurl);
         portrait.setAttribute('alt', `Portait of ${prophet.name} ${prophet.lastname} - ${prophet.order}th Latter-day President`);
         portrait.setAttribute('loading', 'lazy')

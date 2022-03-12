@@ -1,18 +1,17 @@
-<!doctype html>
+<!doctype html>                                  
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="description" content="Fill Me In">
-<meta name="author" content="John Doe">
+<meta name="Beautiful Shire Images" content="Come Visit The Shire">
+<meta name="author" content="Cherelle Payne">
 
-<!-- This start file was build by Paul Cheney  -->
+<script defer src="./js/lazyload2.js"></script>
+
+<!-- start file  -->
 <title>The Shire Chamber of Commerce</title>
 
 <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-
-
 
 <!-- STYLE SHEETS -->
 <link href="../css/normalize.css" rel="stylesheet">
@@ -33,6 +32,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=IM+Fell+Great+Primer:ital@0;1&display=swap" rel="stylesheet">
      
+       <!-- JAVASCRIPTS -->
+<script src="./js/cards.js" defer></script>   
 </head>
 <body>
 <!-- HEADER HERE -->
@@ -57,11 +58,11 @@
     <nav>
         <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
         <ul id="primaryNav">
-            <li class="active"><a href="#">Home</a></li>
-            <li ><a href="../chamber/join.html">Join</a></li> 
-            <li><a href="#">Directory</a></li>
-            <li ><a href="../chamber/discovery.html">Discover</a></li> 
-            <li><a href="#">Contact Us</a></li> 
+            <li ><a href="index.html">Home</a></li>
+            <li ><a href="join.html">Join</a></li> 
+            <li class="active"><a href="directory.html">Directory</a></li>
+            <li><a href="discovery.html">Discover</a></li> 
+            <li><a href="contactus.html">Contact Us</a></li> 
         </ul>
     </nav>
     
@@ -69,31 +70,31 @@
 <!-- CONTENT HERE -->
     <main>
         <section id="box">
-            <div class="banner">
-                <h2>Welcome Home</h2>
-                <p>For things are made to endure in the Shire.</p>
-            </div>
-        </section>
-        <section class=content>
-           <!--- add quote in Java script..Sometimes the only way we can appreciate our home and the simple happiness it has to offer is to be away from it for a while.”-->
-        <div id=hero>
-         <picture id="heroimage">
-             <source media="(max-width:400px)" srcset="./images/shire2-260.png" rel="images" style="width: 260px;"> 
-            <source media= "(max-width:799px)" srcset="./images/shire2-500.png" rel="images"> 
-            <source media= "(min-width:800px)" srcset="./images/shire2-1200.png" rel="images"> 
-            <img scr="./images/shire2-500" rel="images"  alt="The Shire Countryside">
-          </picture>
+    <div class="banner">
+        <h2>Explore The Shire</h2>
+        <p>There are many dark places; but still there is much that is fair.</p>
+    </div>
+
+    <div class="cards"></div>
+
+        <div class="discovery">  
+
+            <img src="./images/discovertheshire.png" alt="shire" data-src="./images/discov1.png">
+            <img src="./images/discovertheshire.png" alt="shire" data-src="./images/discov2.png">
+            <img src="./images/discovertheshire.png" alt="shire" data-src="./images/discov3.png">
+            <img src="./images/discovertheshire.png" alt="shire" data-src="./images/discov4.png" >
+            <img src="./images/discovertheshire.png" alt="shire" data-src="./images/discov5.png">
+            <img src="./images/discovertheshire.png" alt="shire" data-src="./images/discov6.png">
+            <img src="./images/discovertheshire.png" alt="shire" data-src="./images/discov7.png">
+            <img src="./images/discovertheshire.png" alt="shire" data-src="./images/discov8.png">
+            <img src="./images/discovertheshire.png" alt="shire" data-src="./images/discov9.png">
+            <img src="./images/discovertheshire.png" alt="shire" data-src="./images/discov10.png">
+        
         </div>
-    
+
        
-        <div id=events>events</div>
-        <div id=CTA>Call To Action </div>
-        <div id=join>Join</div>
-        <div id="weather">Weather</div>
-        <div id=spotlight>Spotlight</div>
-        <div id="spotlight2">Discovery</div>
-        <p>More Text.      
-</p>
+       
+
 </section>
     </main>
     
