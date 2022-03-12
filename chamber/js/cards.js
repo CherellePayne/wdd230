@@ -21,18 +21,24 @@ fetch(requestURL)
         // create elements to add to the document
         let card = document.createElement("section");
         let h2 = document.createElement("h2")
+        let h3 = document.createElement("h3")
+        let p = document.createElement("p")
         let portrait = document.createElement("img")
         let info = document.createElement("p")
     
     // add the prophets name to the h2 textcontent
-        h2.textContent = prophet.name + " " + prophet.lastname;
-        info.innerHTML = `Business: ${prophet.businessname} <br> Business Type: ${prophet.businesstype} `
+        h2.textContent = prophet.businessname;
+        p.textContent = `Type of Business: ${prophet.businesstype}`;
+        h3.textContent = `${prophet.level} Membership Level`;
+        info.innerHTML = `Contact: ${prophet.name} ${prophet.lastname} `
         portrait.setAttribute('src', prophet.imageurl);
         portrait.setAttribute('alt', `Portait of ${prophet.name} ${prophet.lastname} - ${prophet.order}th Latter-day President`);
         portrait.setAttribute('loading', 'lazy')
     
     // appent to the section(card)
         card.appendChild(h2);
+        card.appendChild(h3);
+        card.appendChild(p);
         card.appendChild(info);
         card.appendChild(portrait);
     

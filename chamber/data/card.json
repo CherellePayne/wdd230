@@ -5,6 +5,7 @@
         "lastname": "Baggins",
         "businessname": "Baggins Books",
         "businesstype": "Teller of Stories",
+        "level":"gold",
         "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
       },
       {
@@ -12,6 +13,7 @@
         "lastname": "Took",
         "businessname": "Play Care",
         "businesstype": "Day Care",
+        "level":"gold",
         "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/brigham-young-82908-gallery.jpg"
       },
       {
@@ -19,6 +21,7 @@
         "lastname": "Cotton",
         "businessname": "Sewing Sensation",
         "businesstype": "Seamstress",
+        "level":"gold",
         "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/john-taylor-82909-gallery.jpg"
       },
       {
@@ -26,6 +29,7 @@
         "lastname": "Gardner",
         "businessname": "Shire Mercantile",
         "businesstype": "Retail Store",
+        "level":"gold",
         "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/wilford-woodruff-82910-gallery.jpg"
       },
       {
@@ -33,6 +37,7 @@
         "lastname": "Gamgee",
         "businessname": "Fresh Boquets",
         "businesstype": "Florist",
+        "level":"silver",
         "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/lorenzo-snow-82911-gallery.jpg"
       },
       {
@@ -40,6 +45,7 @@
         "lastname": "Burrows",
         "businessname": "Rufus Roofs",
         "businesstype": "Contractor",
+        "level":"silver",
         "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/joseph-f-smith-82912-gallery.jpg"
       },
       {
@@ -47,6 +53,7 @@
         "lastname": "Gardner",
         "businessname": "Gardner's Garden Produce",
         "businesstype": "Organic Produce",
+        "level":"silver",
         "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/heber-j-grant-82913-gallery.jpg"
       },
       {
@@ -54,6 +61,7 @@
         "lastname": "Fairbairn",
         "businessname": "Fairbairn Fruitpies",
         "businesstype": "Groceries",
+        "level":"silver",
         "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/george-albert-smith-82914-gallery.jpg"
       },
       {
@@ -61,13 +69,15 @@
         "lastname": "Goodbody",
         "businessname": "Goodbody Bank",
         "businesstype": "Financial Services",
+        "level":"bronze",
         "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/david-o-mckay-82915-gallery.jpg"
       },
       {
-        "name": "Joseph Fielding",
-        "lastname": "Smith",
-        "businessname": "Baggins Books",
-        "businesstype": "Teller of Stories",
+        "name": "Fielding",
+        "lastname": "Took",
+        "businessname": "Feilding Farms",
+        "businesstype": "Produce, Feed and Livestock",
+        "level":"silver",
         "imageurl": "https://media.ldscdn.org/images/media-library/teachings-of-presidents-of-the-church/joseph-fielding-smith/joseph-fielding-smith-82916-gallery.jpg"
       },
       {
@@ -75,6 +85,7 @@
         "lastname": "Hayward",
         "businessname": "Hayward Roofing",
         "businesstype": "Roofing",
+        "level":"silver",
         "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/harold-b-lee-37763-gallery.jpg"
       },
       {
@@ -82,6 +93,7 @@
         "lastname": "Brandy Buck",
         "businessname": "Weed and Feed",
         "businesstype": "Lawn Care",
+        "level":"silver",
         "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/spencer-w-kimball-82918-gallery.jpg"
       }
       
