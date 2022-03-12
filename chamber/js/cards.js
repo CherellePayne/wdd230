@@ -1,6 +1,6 @@
 
 // store the resource, the URL of the JSON file into a const variable to start.
-const requestURL = ""https://cherellepayne.github.io/wdd230/chamber/data/data.json";
+const requestURL = "https://cherellepayne.github.io/wdd230/chamber/data/card.json";
 const cards = document.querySelector(".cards");
 // store the results of the converted response into an array
 
