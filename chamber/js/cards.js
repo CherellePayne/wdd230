@@ -28,8 +28,8 @@ fetch(requestURL)
     
     // add the prophets name to the h2 textcontent
         h2.textContent = prophet.businessname;
-        p.textContent = `Type of Business: ${prophet.businesstype}`;
-        h3.textContent = `${prophet.level} Membership Level`;
+        h3.textContent = ` ${prophet.businesstype}`;
+        p.textContent = `${prophet.level} Membership Level`;
         info.innerHTML = `Contact: ${prophet.name} ${prophet.lastname} `
         portrait.setAttribute('src', prophet.imageurl);
         portrait.setAttribute('alt', `Portait of ${prophet.name} ${prophet.lastname} - ${prophet.order}th Latter-day President`);
