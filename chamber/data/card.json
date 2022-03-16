@@ -6,7 +6,7 @@
         "businessname": "Baggins Books",
         "businesstype": "Teller of Stories",
         "level": "Gold",
-        "imageurl": "./images/twitter.png" 
+        "imageurl": "https://cherellepayne.github.io/wdd230/chamber/images/4.png" 
       },
       {
         "name": "Golilocks",
@@ -14,7 +14,7 @@
         "businessname": "Play Care",
         "businesstype": "Day Care",
         "level": "Gold",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/brigham-young-82908-gallery.jpg"
+        "imageurl": "https://cherellepayne.github.io/wdd230/chamber/images/playcare.png" 
       },
       {
         "name": "Lily",
@@ -22,7 +22,7 @@
         "businessname": "Sewing Sensation",
         "businesstype": "Seamstress",
         "level": "Gold",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/john-taylor-82909-gallery.jpg"
+        "imageurl": "https://cherellepayne.github.io/wdd230/chamber/images/sewing.png" 
       },
       {
         "name": "Merry",
@@ -30,7 +30,7 @@
         "businessname": "Shire Mercantile",
         "businesstype": "Retail Store",
         "level": "Gold",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/wilford-woodruff-82910-gallery.jpg"
+        "imageurl": "https://cherellepayne.github.io/wdd230/chamber/images/store.png" 
       },
       {
         "name": "Rosie",
@@ -38,7 +38,7 @@
         "businessname": "Fresh Boquets",
         "businesstype": "Florist",
         "level": "Silver",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/lorenzo-snow-82911-gallery.jpg"
+        "imageurl": "https://cherellepayne.github.io/wdd230/chamber/images/boquets.png" 
       },
       {
         "name": "Rufus",
@@ -46,23 +46,21 @@
         "businessname": "Rufus Roofs",
         "businesstype": "Contractor",
         "level": "Silver",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/joseph-f-smith-82912-gallery.jpg"
-      },
+        "imageurl": "https://cherellepayne.github.io/wdd230/chamber/images/rufus.png" 
       {
         "name": "Hamfast",
         "lastname": "Gardner",
         "businessname": "Gardner's Garden Produce",
         "businesstype": "Organic Produce",
         "level": "Silver",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/heber-j-grant-82913-gallery.jpg"
-      },
+        "imageurl": "https://cherellepayne.github.io/wdd230/chamber/images/produce.png" 
       {
         "name": "Elfstan",
         "lastname": "Fairbairn",
         "businessname": "Fairbairn Fruitpies",
         "businesstype": "Groceries",
         "level": "Silver",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/george-albert-smith-82914-gallery.jpg"
+        "imageurl": "https://cherellepayne.github.io/wdd230/chamber/images/pies.png" 
       },
       {
         "name": "Togo",
@@ -70,7 +68,7 @@
         "businessname": "Goodbody Bank",
         "businesstype": "Financial Services",
         "level": "Bronze",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/david-o-mckay-82915-gallery.jpg"
+        "imageurl": "https://cherellepayne.github.io/wdd230/chamber/images/bank.png" 
       },
       {
         "name": "Fielding",
@@ -78,7 +76,7 @@
         "businessname": "Feilding Farms",
         "businesstype": "Produce, Feed and Livestock",
         "level": "Silver",
-        "imageurl": "https://media.ldscdn.org/images/media-library/teachings-of-presidents-of-the-church/joseph-fielding-smith/joseph-fielding-smith-82916-gallery.jpg"
+        "imageurl": "https://cherellepayne.github.io/wdd230/chamber/images/farm.png" 
       },
       {
         "name": "Hob",
@@ -86,7 +84,7 @@
         "businessname": "Hayward Roofing",
         "businesstype": "Roofing",
         "level": "Silver",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/harold-b-lee-37763-gallery.jpg"
+        "imageurl":"https://cherellepayne.github.io/wdd230/chamber/images/roofing.png" 
       },
       {
         "name": "Sadoc",
@@ -94,7 +92,7 @@
         "businessname": "Weed and Feed",
         "businesstype": "Lawn Care",
         "level": "Silver",
-        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/spencer-w-kimball-82918-gallery.jpg"
+        "imageurl": "https://cherellepayne.github.io/wdd230/chamber/images/lawn.png" 
       }
       
     ]
