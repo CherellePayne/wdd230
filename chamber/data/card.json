@@ -6,7 +6,7 @@
         "businessname": "Baggins Books",
         "businesstype": "Teller of Stories",
         "level": "Gold",
-        "imageurl": "https://cherellepayne.github.io/wdd230/chamber/images/4.png" 
+        "imageurl": "https://cherellepayne.github.io/wdd230/chamber/images/baggins.png" 
       },
       {
         "name": "Golilocks",
@@ -38,7 +38,7 @@
         "businessname": "Fresh Boquets",
         "businesstype": "Florist",
         "level": "Silver",
-        "imageurl": "https://cherellepayne.github.io/wdd230/chamber/images/boquets.png" 
+        "imageurl": "https://cherellepayne.github.io/wdd230/chamber/images/boquet.png" 
       },
       {
         "name": "Rufus",
