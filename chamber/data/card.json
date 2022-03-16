@@ -47,6 +47,7 @@
         "businesstype": "Contractor",
         "level": "Silver",
         "imageurl": "https://cherellepayne.github.io/wdd230/chamber/images/rufus.png" 
+      },
       {
         "name": "Hamfast",
         "lastname": "Gardner",
@@ -54,6 +55,7 @@
         "businesstype": "Organic Produce",
         "level": "Silver",
         "imageurl": "https://cherellepayne.github.io/wdd230/chamber/images/produce.png" 
+      },
       {
         "name": "Elfstan",
         "lastname": "Fairbairn",
