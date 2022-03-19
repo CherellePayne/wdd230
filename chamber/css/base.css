@@ -247,6 +247,43 @@ nav ul.open {display:block;}
      font-size: small;
  }
 
- #box{
-     background-image:url("paper.gif"); 
- }
+
+
+ .cards {
+    padding-top: 2rem;
+    display: grid;
+    justify-content: center;
+    background-color: rgb(210, 230, 211);
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    padding-left: 5%;  
+}
+
+
+  .cards img {
+      max-width: 16rem;
+      padding-bottom: 5rem;
+  }
+  
+.cards p{
+    color: #414141;
+    justify-content: center;
+}
+
+.cards h3{
+border: 0em;
+justify-content: center;
+color: rgb(124, 136, 124);
+}
+
+.disco img{
+    display:inline;
+    max-width: 14rem;
+border: 0em;
+padding-left: 0rem;
+padding-right: 0rem;
+padding-top: 2rem;
+}
+
+.disco section{
+    padding-left: 10rem;
+}
