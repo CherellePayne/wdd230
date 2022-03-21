@@ -139,6 +139,13 @@ nav ul.open {display:block;}
     margin: 5px 5px 5px 4px;
 }
 
+#heroimage{ 
+    display: grid;
+    grid-row: 1/2;
+    grid-column: 1/7;    
+}
+
+
 #join h3{
     padding-top: 1rem;
     display: flex;
