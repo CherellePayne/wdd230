@@ -67,7 +67,7 @@ header #tagline{
     display:grid;
     grid-row:3/4;
     grid-column: 1/3;
-    background-color: rgb(119, 124, 112);
+    background-color: rgb(196, 199, 191);
     margin: 5px 5px 5px 4px;
 }
 

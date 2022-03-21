@@ -66,6 +66,8 @@ function displayList(prophet) {
 function toggleList() {
     document.getElementById("listToggle").style.display = "block";
     document.getElementById("cardToggle").style.display = "none";
+    document.querySelector(".listTabs").innerHTML = "";
+    
 }
 
 function toggleCard() {

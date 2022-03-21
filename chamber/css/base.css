@@ -139,6 +139,12 @@ nav ul.open {display:block;}
     margin: 5px 5px 5px 4px;
 }
 
+#join h3{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+}
 
 #events{
     display:grid;
@@ -282,8 +288,85 @@ border: 0em;
 padding-left: 0rem;
 padding-right: 0rem;
 padding-top: 2rem;
+
 }
 
 .disco section{
-    padding-left: 10rem;
+    padding-left: 16rem;
 }
+
+.disco h3{
+    padding-left: 2%;
+}
+
+.disco container{
+    display: grid;
+    padding-left: 10em;
+    padding-bottom: 5rem;
+}
+
+.dirButtons{
+    padding-top: 5em;
+    padding-left:10em;
+    justify-content:center;
+    background-color: rgb(210, 230, 211);
+}
+
+td, th {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+    }
+
+    th {
+    background-color: rgb(83, 172, 175);
+    }
+
+    td {
+    text-align: left;
+    tab-size: 10em;
+    }
+
+    tr:nth-child(even) td {
+    background-color: rgb(231, 231, 231);
+    }
+
+    tr:nth-child(odd) td {
+    background-color: rgb(192, 214, 198);
+    }
+
+    .listTabs{
+       padding-left: 10%;
+       background-color:rgb(210, 230, 211);
+       padding-bottom: 5rem;
+    }
+
+    #info{
+        color: rgb(124, 136, 124);   
+    }
+   footer{
+       color: rgb(0, 0, 0);
+       padding-bottom: 10em;
+       display: inline;
+   }
+   
+   #modified{
+    color: rgb(215, 218, 215);
+    font-size: 1.2rem;
+    padding-left: 5rem;
+    padding-top: 5rem;
+   }
+
+   join-form{
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
+       grid-template-rows: 1fr 1fr 1fr 1fr;
+   }
+
+   .partA{
+       grid-template-rows: 1/2fr;
+       grid-template-colums: 1/2f;
+   }
+
+   .partB{
+    grid-area: 2fr/ 1fr;
+   }
