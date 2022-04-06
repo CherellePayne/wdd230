@@ -1,0 +1,38 @@
+/*35rem is also 560px when basefont is 16px */
+@media only screen and (min-width: 36rem) {
+
+nav button {
+    display: none;}
+
+nav {
+    background-color:rgb(0, 0, 0);
+    }
+
+nav ul#primaryNav {
+    display:flex;
+    justify-content: flex-start;
+    margin-left: 2vw;
+    border-left: 1px solid rgba(0,0,0,0.3)
+}
+
+nav ul li a {
+    border: none;
+    border-right: 1px solid rgba(0,0,0,0.3)
+   
+
+}
+
+
+banner h2{
+    font-size: 2rem;
+    padding-bottom: 0px;
+    padding-top:3rem;
+    color: whiye;
+} 
+
+.banner p{
+color: beige;
+    font-size: 3rem;
+    padding-bottom: 150px;
+}
+} /* end medium */
