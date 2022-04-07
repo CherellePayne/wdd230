@@ -1,5 +1,5 @@
-// create an "apiURL" variable
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?q=Bethseda,Maryland&units=imperial&appid=baad4d5e94dd793cde189987413f593f"
+// create an "apiURL" variable const apiURL = "https://api.openweathermap.org/data/2.5/weather?q=Bethseda,Maryland&units=imperial&appid=baad4d5e94dd793cde189987413f593f"
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?q=Fairbanks,Alaska&units=imperial&appid=b9844c0f082309852779221734dfd734"
 // Use fetch() to request the given apiURL. 
 fetch(apiURL) 
     .then((response) => response.json())
