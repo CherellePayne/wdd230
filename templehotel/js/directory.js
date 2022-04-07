@@ -1,5 +1,5 @@
 // store resource URL in a const
-const requestURL ="https://cherellepayne.github.io/wdd230/templehotel/data/card.json";
+const requestURL ="https://cherellepayne.github.io/wdd230/templehotel/data/card1.json";
 const cards = document.querySelector(".cards");
 const lists = document.querySelector(".listTabs")
 

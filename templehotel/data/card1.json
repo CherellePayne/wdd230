@@ -1,0 +1,37 @@
+{
+    "prophets": [
+      {
+        "name": "Bilbo",
+        "lastname": "Baggins",
+        "businessname": "Baggins Books",
+        "businesstype": "Teller of Stories",
+        "level": "Gold",
+        "imageurl": "https://cherellepayne.github.io/wdd230/chamber/images/baggins.png" 
+      },
+      {
+        "name": "Golilocks",
+        "lastname": "Took",
+        "businessname": "Play Care",
+        "businesstype": "Day Care",
+        "level": "Gold",
+        "imageurl": "https://cherellepayne.github.io/wdd230/chamber/images/playcare.png" 
+      },
+      {
+        "name": "Lily",
+        "lastname": "Cotton",
+        "businessname": "Sewing Sensation",
+        "businesstype": "Seamstress",
+        "level": "Gold",
+        "imageurl": "https://cherellepayne.github.io/wdd230/chamber/images/sewing.png" 
+      },
+      {
+        "name": "Merry",
+        "lastname": "Gardner",
+        "businessname": "Shire Mercantile",
+        "businesstype": "Retail Store",
+        "level": "Gold",
+        "imageurl": "https://cherellepayne.github.io/wdd230/chamber/images/store.png" 
+      }
+      
+    ]
+  }
