@@ -40,7 +40,7 @@ function displayDir(prophet) {
     // let phone = document.createElement("p")
 // add the directorys name to the name textcontent
     name.textContent = prophet.businessname;
-    info.innerHTML = `<b>Phone Number:</b> ${prophet.businesstype}  <br> <b>Address:</b> ${prophet.name} <br> <b>Website:</b> ${prophet.level}`
+    info.innerHTML = `<b>Status:</b> ${prophet.businesstype}  <br> <b>number:</b> ${prophet.name} <br> <bbbbb:</b> ${prophet.level}`
     // phone.innerHTML = `Business:${prophet.businestype}`;
     logo.setAttribute('src', prophet.imageurl);
     logo.setAttribute('alt', `${prophet.companyname} logo`);
