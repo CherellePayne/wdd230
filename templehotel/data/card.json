@@ -1,12 +1,13 @@
 {
     "prophets": [
       {
-        "name": "Bilbo",
+        "name": "125 Columbus Ave, Fourth Floor
+        New York NY 10023-6514",
         "lastname": "Baggins",
-        "businessname": "Baggins Books",
-        "businesstype": "Teller of Stories",
-        "level": "Gold",
-        "imageurl": "https://cherellepayne.github.io/wdd230/chamber/images/baggins.png" 
+        "businessname": "Manhattan New York",
+        "businesstype": "(1) 917-441-8220",
+        "level": "https://www.churchofjesuschrist.org/temples/schedule/appointment?lang=eng",
+        "imageurl": "https://cherellepayne.github.io/wdd230/templehotel/images/9.png" 
       },
       {
         "name": "Golilocks",
@@ -14,7 +15,7 @@
         "businessname": "Play Care",
         "businesstype": "Day Care",
         "level": "Gold",
-        "imageurl": "https://cherellepayne.github.io/wdd230/chamber/images/playcare.png" 
+        "imageurl": "https://cherellepayne.github.io/wdd230/templehotel/images/10.png" 
       },
       {
         "name": "Lily",
@@ -22,7 +23,7 @@
         "businessname": "Sewing Sensation",
         "businesstype": "Seamstress",
         "level": "Gold",
-        "imageurl": "https://cherellepayne.github.io/wdd230/chamber/images/sewing.png" 
+        "imageurl": "https://cherellepayne.github.io/wdd230/templehotel/images/11.png" 
       },
       {
         "name": "Merry",
@@ -30,7 +31,7 @@
         "businessname": "Shire Mercantile",
         "businesstype": "Retail Store",
         "level": "Gold",
-        "imageurl": "https://cherellepayne.github.io/wdd230/chamber/images/store.png" 
+        "imageurl": "https://cherellepayne.github.io/wdd230/templehotel/images/12.png" 
       }
     
     ]
