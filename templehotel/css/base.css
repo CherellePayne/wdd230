@@ -258,6 +258,10 @@ nav ul.open {display:block;}
     color: white;
 } 
 
+
+#list .banner{
+    margin-bottom: 7rem;
+}
 .banner p{
 
     font-size: 2rem;

@@ -1,0 +1,190 @@
+<!doctype html>                                  
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="The Temple Inn & Suites" content="Come Visit ">
+<meta name="author" content="Cherelle Payne">
+
+<script defer src="./js/lazyload2.js"></script>
+
+<!-- start file  -->
+<title> The Temple Inn & Suites</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- STYLE SHEETS -->
+<link href="../css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="./css/base.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="./css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="./css/large.css" rel="stylesheet">
+
+<!-- fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baskervville&family=Caveat:wght@500&family=Lato:wght@300;700&family=PT+Serif&family=Sacramento&display=swap" rel="stylesheet">
+     
+       <!-- JAVASCRIPTS -->
+<script src="./js/directory.js" defer></script>  
+<script src="./js/weatherapi.js"></script> 
+</head>  
+</head>
+<body>
+<!-- HEADER HERE -->
+<header>
+    <img src="./images/logo.png "alt="  The Temple Inn & Suite logo"   width="1">
+    <section class="headings">
+    <h1 id="title">Temple</h1> <div id=tagline>Inn & Suites</div>
+       </section>
+       <section class="social">
+        <a href="https://m.facebook.com/LDS-Temples-318695735335648/"> 
+            <img src="./images/facebook.png" rel="images" alt="Facebook">
+          </a>
+        <a href="https://twitter.com/Ch_JesusChrist"> 
+            <img src="./images/twitter.png" rel="images" alt="Facebook">
+          </a>
+       </section>
+    </header>
+    
+    
+<!-- NAVIGATION HERE -->
+    <nav>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+        <ul id="primaryNav">
+            <li ><a href="./home.html">Home</a></li>
+            <li ><a href="./temple.html">Temple</a></li> 
+            <li ><a href="./service.html">Service</a></li>
+            <li class="active"><a href="./reservation.html">Reservation</a></li> 
+        </ul>
+    </nav>
+    
+    
+<!-- CONTENT HERE -->
+    <main>
+        <section id="box">
+            <div class="banner">
+                <div class="banner-image">
+                    <div class="banner-text">
+                <h2> Come and Stay with us!</h2>
+                <p>Book your stay or event today.</p>
+                <a href="./reservation.html">Reserve Now</a>
+                </div>
+                </div>
+            </div>
+
+
+
+<section class="disco">
+    <container class="disco">
+        <main>
+            <section id="box">
+        <div class="banner">
+            <h2>Reserve your stay!</h2>
+            <p>Lets us make your temple stay experince peaceful.</p>
+        </div>
+    </section>
+    <section class="join-grid">
+            <div id="join-form">  
+    
+                <form class="partA">
+                    <h3>Reserve your stay!</h3>
+                    <label for="fname">First Name:</label><br>
+                    <input type="text" id="fname" name="fname"><br><br>
+                    <label for="lname">Last Name:</label><br>
+                    <input type="text" id="lname" name="lname"><br><br>
+                    <label for="title"> address:</label><br>
+                    <input type="text" id="title" name="title"><br><br>
+                    <label for="email">Email:   </label><br>
+                    <input type="email" id="email" name="email"><br><br>
+                    <input type="submit" value="Reserve Now"> <br><br>
+                  </form>
+                  
+                  <form class="partB">
+                    <p>Please select temple:</p>
+                    <input type="radio" id="Gold" name="Gold" value="Gold">
+                    <label for="Gold">Washington D.C.</label><br><br>
+                    <input type="radio" id="silver" name="silver" value="silver">
+                    <label for="silver">Manhattan, New York</label><br><br>
+                    <input type="radio" id="bronze" name="bronze" value="bronze">
+                    <label for="bronze">Boston, Massachusetts</label><br><br>
+                    <label for="Yel"><input type="radio" id="Yel" name="Yel" value="Yel">
+                    <label for="Yel">Philadelphia, Pennsylvania</label><br><br></label><br><br>
+                </form>
+
+                <p>When is your desired stay:</p>
+                <form action="/action_page.php">
+                    <label for="birthday">Arrival Date:</label>
+                    <input type="date" id="birthday" name="birthday">
+                    <input type="submit">
+                  </form>
+<br> <br>
+        <form action="/action_page.php">
+        <label for="birthday">Departure Date:</label>
+     <input type="date" id="birthday" name="birthday">
+        <input type="submit">
+    </form>
+    
+                <form class="partC">
+                    <div>
+                      <p  for="title">Tell Us More:</p> 
+                        <textarea id="content" name="content" cols="60" rows="5">Tell us more about your plans!</textarea> <br>
+                    </div>
+                    <div id="fineprint"> * By agreeing to an account, you agree to The Temple Inn & Suites Conditions of Use and Privacy Notice.</div>
+                      <br>
+                    <div>
+                      <button type="submit">Send Information</button>
+                    </div>
+                    <input type="hidden" id="postId" name="postId" value="34657">
+                    <br>
+                    <br>
+                  </form>
+        <div class="disco">  
+
+            <img src="./images/12.png">
+            <img src="./images/10.png" >
+            <img src="./images/missionary.png">
+            <img src="./images/seniorcouple.png">
+            <img src="./images/11.png">
+            <img src="./images/party.png">
+            <img src="./images/9.png">
+            <img src="./images/newlyweds.png">
+            <img src="./images/family.png">
+
+        </div>
+
+       
+    </container> 
+
+</section>
+    </main>
+    
+  <!-- FOOTER HERE -->   
+<div class=banner>
+
+    <footer>
+  
+
+    <section class="map">
+        
+          <h4 id="address"> The Temple Inn & Suites Located</h4>
+              <h4>4800 Montgomery Ln #300, Bethseda, MD 20814</h4>
+              <a href="https://www.google.com/maps/place/4800+Montgomery+Ln,+Bethesda,+MD+20814,+USA/@38.9832518,-77.0977205,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7c97b6b3b5b43:0xceab47cd19a23a3b!8m2!3d38.9832518!4d-77.0955318">
+                <img src="./images/2.png" rel="images" alt="Google Maps">
+              </a> 
+        </section>
+
+        <div class="modified"> Last Modified:<date></date></div>
+    <p id="copy">&copy; | Cherelle Payne Designs| All Rights Reserved |</p>
+    </div>
+           
+        <span id="todaysdate"></span></script>
+        </footer>
+        <script src="./js/TodaysDate.js"></script>
+        <script src="./js/toggle.js"></script>
+        <script src="./js/Dates.js"></script>
+        </div>
+    </body>
+    </html>
