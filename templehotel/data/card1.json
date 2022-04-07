@@ -1,35 +1,35 @@
 {
     "prophets": [
       {
-        "name": "Bilbo",
+        "name": "(1)917-441-8220",
         "lastname": "Baggins",
-        "businessname": "Baggins Books",
-        "businesstype": "Teller of Stories",
-        "level": "Gold",
+        "businessname": "Washington DC ",
+        "businesstype": "Closed for Renovations",
+        "level": "",
         "imageurl": "https://cherellepayne.github.io/wdd230/templehotel/images/9.png" 
       },
       {
-        "name": "Golilocks",
+        "name": "(1)617-993-9993",
         "lastname": "Took",
         "businessname": "Play Care",
-        "businesstype": "Day Care",
-        "level": "Gold",
+        "businesstype": "Open",
+        "level": "",
         "imageurl": "https://cherellepayne.github.io/wdd230/templehotel/images/10.png" 
       },
       {
-        "name": "Lily",
+        "name": "(1)215-398-3040",
         "lastname": "Cotton",
         "businessname": "Sewing Sensation",
-        "businesstype": "Seamstress",
-        "level": "Gold",
+        "businesstype": "Open",
+        "level": "",
         "imageurl": "https://cherellepayne.github.io/wdd230/templehotel/images/11.png" 
       },
       {
-        "name": "Merry",
+        "name": "(1)917-441-8220",
         "lastname": "Gardner",
         "businessname": "Shire Mercantile",
-        "businesstype": "Retail Store",
-        "level": "Gold",
+        "businesstype": "Open",
+        "level": "",
         "imageurl": "https://cherellepayne.github.io/wdd230/templehotel/images/12.png" 
       }
       
