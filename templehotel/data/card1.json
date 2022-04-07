@@ -6,7 +6,7 @@
         "businessname": "Baggins Books",
         "businesstype": "Teller of Stories",
         "level": "Gold",
-        "imageurl": "https://cherellepayne.github.io/wdd230/chamber/images/baggins.png" 
+        "imageurl": "https://cherellepayne.github.io/wdd230/templehotel/images/9.png" 
       },
       {
         "name": "Golilocks",
@@ -14,7 +14,7 @@
         "businessname": "Play Care",
         "businesstype": "Day Care",
         "level": "Gold",
-        "imageurl": "https://cherellepayne.github.io/wdd230/chamber/images/playcare.png" 
+        "imageurl": "https://cherellepayne.github.io/wdd230/templehotel/images/10.png" 
       },
       {
         "name": "Lily",
@@ -22,7 +22,7 @@
         "businessname": "Sewing Sensation",
         "businesstype": "Seamstress",
         "level": "Gold",
-        "imageurl": "https://cherellepayne.github.io/wdd230/chamber/images/sewing.png" 
+        "imageurl": "https://cherellepayne.github.io/wdd230/templehotel/images/11.png" 
       },
       {
         "name": "Merry",
@@ -30,7 +30,7 @@
         "businessname": "Shire Mercantile",
         "businesstype": "Retail Store",
         "level": "Gold",
-        "imageurl": "https://cherellepayne.github.io/wdd230/chamber/images/store.png" 
+        "imageurl": "https://cherellepayne.github.io/wdd230/templehotel/images/12.png" 
       }
       
     ]
