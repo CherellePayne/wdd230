@@ -1,9 +1,7 @@
 {
     "prophets": [
       {
-        "name": "9900 Stoneybrook Dr
-        Kensington MD 20895-3199
-        United States",
+        "name": "",
         "lastname": "Baggins",
         "businessname": "Washington D.C.",
         "businesstype": "(1) 917-441-8220",
@@ -11,9 +9,7 @@
         "imageurl": "https://cherellepayne.github.io/wdd230/templehotel/images/9.png" 
       },
       {
-        "name": "100 Hinckley Wy
-        Belmont MA 02478-2135
-        United States",
+        "name": "",
         "lastname": "Took",
         "businessname": "Boston Massachusetts Temple",
         "businesstype": "(1) 617-993-9993",
@@ -21,9 +17,7 @@
         "imageurl": "https://cherellepayne.github.io/wdd230/templehotel/images/10.png" 
       },
       {
-        "name": "1739 Vine St
-        Philadelphia PA 19103
-        United States",
+        "name": "",
         "lastname": "Cotton",
         "businessname": "Philadelphia Pennsylvania",
         "businesstype": "(1) 215-398-3040",
@@ -31,8 +25,7 @@
         "imageurl": "https://cherellepayne.github.io/wdd230/templehotel/images/11.png" 
       },
       {
-        "name": "125 Columbus Ave, Fourth Floor
-        New York NY 10023-6514",
+        "name": "",
         "lastname": "Gardner",
         "businessname": "Manhattan New York",
         "businesstype": "(1) 917-441-8220",
