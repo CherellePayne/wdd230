@@ -258,9 +258,13 @@ nav ul.open {display:block;}
     color: white;
 } 
 
+.banner li{
+    font-size: 1.5rem;
+    margin-left: 3rem;
+}
 
 #list .banner{
-    margin-bottom: 7rem;
+    margin-bottom: 2rem;
 }
 .banner p{
 
